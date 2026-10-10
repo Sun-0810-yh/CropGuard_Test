@@ -1,0 +1,30 @@
+# --- 测试运行产物 ---
+output/
+*.log
+
+# --- 模型权重（本仓库不含）---
+*.pt
+*.onnx
+*.onnx.data
+*.pth
+*.engine
+
+# --- 本机生成的自签证书 ---
+config/certs/
+
+# --- Python 缓存与环境 ---
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+.env
+
+# --- IDE ---
+.idea/
+.vscode/
+
+# --- 系统垃圾文件 ---
+.DS_Store
+Thumbs.db
